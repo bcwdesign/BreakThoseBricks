@@ -1,0 +1,11 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class LevelLoader : MonoBehaviour {
+
+//Basic function for loading level
+public void LoadScene (int level) 
+	{
+		Application.LoadLevel(level);
+	}
+}
